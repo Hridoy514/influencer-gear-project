@@ -148,7 +148,7 @@ body{
 }
 /* featured section style */
 .featured-section{
-    margin: 150px 0;
+    margin: 100px 0;
     width: 100%;
 }
 .featured-container{
@@ -183,7 +183,36 @@ body{
     color: #FFFFFF;
     border: none;
 }
-
+/* footer section styles */
+footer{
+    background-color: #0A0826;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-content{
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer-content h3{
+    font-size: 22px;
+}
+.footer-content p{
+    margin: 10px 0;
+    font-family: "Manrope", serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #D9DBE1;
+}
+.footer-icons{
+    font-size: 22px;
+}
+.footer-icons i{
+    background-color: #22213C;
+    padding: 10px;
+    border-radius: 22px;
+}
 
 /* Responsive small device */
 @media screen and (max-width:576px) {
