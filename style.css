@@ -88,8 +88,22 @@ body{
     background-size: contain;
 }
 
-
-
+/* sponser section design*/
+.sponser-container{
+    margin: 80px 0;
+}
+.sponser-items{
+    border-top: 1px solid rgb(201, 199, 199);
+    border-bottom: 1px solid rgb(201, 199, 199);
+    margin: 20px 0;
+    padding: 20px 0;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+/* .sponser-items img{
+} */
 
 /* Responsive small device */
 @media screen and (max-width:576px) {
@@ -130,7 +144,15 @@ body{
         font-size: 20px;
         padding: 10px 45px;
     }
+    /* sponser section respponsive */
+    .sponser-items{
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
 
 
 
@@ -139,5 +161,9 @@ body{
     .navbar ul, .navbar{
         flex-direction: column;
         gap: 0;
+    }
+    .sponser-items{
+        flex-wrap: wrap;
+        gap: 30px;
     }
 }
